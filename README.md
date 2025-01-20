@@ -1,4 +1,4 @@
-In this project, I train a set of classical models to predict game properties. Then, use perfomance metrics to decide which of the models is best suited for predicting each selected prperties.
+In this project, I train a set of classical ML models to predict game properties. Then, I use perfomance metrics to decide which of the models is best suited for predicting each of the selected properties.
 
 To run the notebook, use:
 
