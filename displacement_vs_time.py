@@ -6,17 +6,17 @@ t = np.linspace(0, 10, 500)
 
 # Three motion scenarios
 # 1. Uniform motion: displacement = velocity * time
-v = 5  # m/s
-displacement_uniform = v * t
+velocity = 5  # m/s
+displacement_uniform = velocity * t
 
-# 2. Uniformly accelerated motion: displacement = 0.5 * a * t^2
-a = 2  # m/s^2
-displacement_accelerated = 0.5 * a * t**2
+# 2. Uniformly accelerated motion: displacement = 0.5 * acceleration * t^2
+acceleration = 2  # m/s^2
+displacement_accelerated = 0.5 * acceleration * t**2
 
-# 3. Simple harmonic motion: displacement = A * sin(omega * t)
-A = 20   # amplitude in metres
+# 3. Simple harmonic motion: displacement = amplitude * sin(omega * t)
+amplitude = 20   # amplitude in metres
 omega = 1.0  # angular frequency rad/s
-displacement_shm = A * np.sin(omega * t)
+displacement_shm = amplitude * np.sin(omega * t)
 
 fig, axes = plt.subplots(3, 1, figsize=(10, 12))
 fig.suptitle("Displacement vs Time", fontsize=16, fontweight="bold")
